@@ -1,0 +1,349 @@
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #a1a1a1;
+    font-size: larger;
+    font-weight: 500;
+}
+
+body{
+    font-family: 'Nunito';
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    padding: 20px;
+}
+
+.items-nav{
+    padding: 18px;
+}
+
+.product-name{
+    font-size: x-large;
+    font-weight: 600;
+    color: #41cd52;
+}
+
+.buynow{
+    padding: 12px 28px;
+    background-color: #41cd52;
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+    border: 0px solid;
+    border-radius: 15px;
+    -webkit-box-shadow: -4px -1px 35px -14px rgba(65,205,82,1);
+    -moz-box-shadow: -4px -1px 35px -14px rgba(65,205,82,1);
+    box-shadow: -4px -1px 35px -14px rgba(65,205,82,1);
+}
+
+.homepage-intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.homepage-intro-contents{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.home-content{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    height: 100vh;
+    background-color: white;
+    overflow: none;
+}
+
+@font-face {
+    font-family: nunito;
+    src: url(Nunito-VariableFont_wght.ttf);
+  }
+
+body{
+    margin: 0px;
+    font-family: nunito;
+}
+
+.bold-homepage-contents{
+    font-family: nunito;
+    font-size: 52px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.bold-homepage-contents2{
+    font-family: nunito;
+    font-size: 38px;
+    font-weight: 500;
+    color: #404040;
+}
+
+.nml-homepage-contents{
+    font-size: medium;
+    font-weight: 400;
+    color: #a1a1a1;
+}
+
+.nml-homepage-contents2{
+    font-size: large;
+    font-weight: 400;
+    color: #848484;
+}
+
+.main-intro-contents{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.cards{
+    background-color: #F3F3F3;
+    padding: 120px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.cards-matter-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.cards-matter-small{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-here{
+    background-color: white;
+    width: 17vw;
+    padding: 30px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    margin-left: 20px;
+    height: auto;
+}
+
+.matter{
+    width: 16vw;
+}
+
+.card-img{
+    height: 50px;
+    width: 50px;
+}
+
+.svg{
+    float: right;
+}
+
+.card-heading{
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.cards-wraper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 80px 50px;
+    align-content: center;
+}
+
+.mobile-nav-items{
+    display: none;
+}
+
+@media screen and (max-width: 750px){
+    .banner{
+        flex-wrap: wrap;
+    }
+
+    .homepage-image{
+        width: 100vw;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:991px) {
+
+    .nav-items{
+        display: none;
+    }
+
+    .mobile-nav-items{
+        display: block;
+    }
+    
+}
+
+.banner-matter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.banner-img{
+    height: 37vw;
+    width: auto;
+}
+
+.banner-img2{
+    width: 45vw;
+    height: auto; 
+}
+
+.knowmore{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9F9F9;
+}
+
+.knowmore-matter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px;
+    gap: 20px;
+}
+
+.review-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+    align-items: center;
+    width: 50vw;
+}
+
+
+
+
+.review{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 140px 40px;
+    overflow: hidden;
+}
+
+.review-image{
+    width: 100px;
+    height: auto;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+
+.swiper {
+    width: 50%;
+    height: 50%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 100px 0px 80px 0px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    object-fit: cover;
+  }
+
+.last-banner{
+    height: 90vh;
+    width: 98.6vw;
+    position: relative;
+}
+
+.last-banner-data{
+    /* background-image: url("http://ydirection.com/Root/assets/images/cta.jpg"); */
+    width: 50vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: white;
+    padding-top: 160px;
+    gap: 20px;
+}
+
+
+.ram-ram{
+    font-size: xx-large;
+}
+
+
+.aboutus{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.last-aboutus{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.last-aboutus-matter{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    gap: 30px;
+}
+
+.banner-wraper{
+    width: 98.6vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url("http://ydirection.com/Root/assets/images/cta.jpg");
+    position: relative;
+}
+
+.aboutus-wraper{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
